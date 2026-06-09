@@ -1,0 +1,14 @@
+services:
+  short-drama-platform:
+    build: .
+    container_name: ai-short-drama
+    ports:
+      - "5679:5679"
+    volumes:
+      - ./data:/app/data
+      - ./configs:/app/configs
+      - ./backend/.env:/app/backend/.env
+    environment:
+      - NODE_ENV=production
+      - PORT=5679
+    restart: unless-stopped

@@ -1,0 +1,25 @@
+# 环境变量（含 API Key）
+.env
+
+# 依赖
+node_modules/
+
+# 数据库 / 存储（含用户数据和生成图片）
+backend/data/
+
+# 日志
+*.log
+server.log
+
+# 前端构建产物（clone 后需自行 build）
+frontend/dist/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

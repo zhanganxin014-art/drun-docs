@@ -1,0 +1,53 @@
+/* ============================================
+   E迅短剧助手 - 全局CSS变量（小云雀风格·淡雅白底）
+   ============================================ */
+:root {
+  /* 主色调 - 小云雀紫 */
+  --primary: #7C5CF0;
+  --primary-light: #9B82F5;
+  --primary-dark: #5E3FD4;
+  --primary-bg: rgba(124, 92, 240, 0.06);
+  --primary-bg-hover: rgba(124, 92, 240, 0.10);
+
+  /* 功能色 */
+  --success: #34C759;
+  --warning: #FF9500;
+  --danger: #FF3B30;
+  --info: #5E5CE6;
+
+  /* 背景色 - 白色系 */
+  --bg-base: #F2F1F6;
+  --bg-main: #F8F8FA;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #FAFAFC;
+  --bg-input: #F5F5F9;
+  --bg-sidebar: #F8F7FA;
+  --bg-header: #ECEAF3;
+  --bg-modal: #FFFFFF;
+
+  /* 文字色 */
+  --text-primary: #1A1A2E;
+  --text-secondary: #6E6E86;
+  --text-muted: #A0A0B8;
+  --text-accent: #7C5CF0;
+
+  /* 边框 */
+  --border-color: #E8E8F0;
+  --border-light: #F0F0F6;
+  --border-active: #7C5CF0;
+
+  /* 阴影 - 轻柔 */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+  /* 圆角 */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  /* 布局 */
+  --sidebar-width: 200px;
+  --header-height: 52px;
+}
